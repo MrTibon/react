@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
-import Header from "./Components/Header";
-import Menu from "./Components/Menu";
-import Page from "./Components/Page";
+import Header from "./Components/Header/Header.jsx";
+import Menu from "./Components/Menu/Menu.jsx";
+import Profile from "./Components/Profile/Profile.jsx";
 
 
 const App = () => {
@@ -10,7 +10,7 @@ const App = () => {
         <div className={"app-wraper"}>
             <Header/>
             <Menu/>
-            <Page/>
+            <Profile/>
         </div>
 
     );
